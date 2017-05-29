@@ -1,0 +1,190 @@
+[15-May-2017 12:39:17 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:39:21 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:39:23 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:39:24 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:39:25 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:39:29 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:42:51 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:47:18 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:47:33 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:49:13 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/UsersModel.php(23): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/RegisterController.php(118): App\Models\UsersModel->doesThisEmailExist('kjkgjdkg@g.co')
+#3 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/RegisterController.php(21): App\Controllers\RegisterController->validateUser()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(61): App\Controllers\RegisterController->store()
+#5 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#6 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:49:28 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:49:37 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(113): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/MusicController.php(14): App\Models\DatabaseModel->showAll()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(31): App\Controllers\MusicController->showAll()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:49:42 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/AddModel.php(88): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/MusicController.php(39): App\Models\AddModel->getGenreList('HipHop')
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(115): App\Controllers\MusicController->genreSelector()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:58:05 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 12:59:34 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 13:46:05 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 14:13:44 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 14:15:55 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/UsersModel.php(80): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/AccountController.php(33): App\Models\UsersModel->attemptLogin()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(85): App\Controllers\AccountController->processLoginForm()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 14:32:43 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 14:32:58 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
+[15-May-2017 14:33:02 Pacific/Auckland] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php:46
+Stack trace:
+#0 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(46): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php(132): App\Models\DatabaseModel::getDatabaseConnection()
+#2 /home/connorgiannotti/public_html/thunderboltmusic/App/Controllers/HomeController.php(14): App\Models\DatabaseModel->showFeatured()
+#3 /home/connorgiannotti/public_html/thunderboltmusic/routes.php(25): App\Controllers\HomeController->show()
+#4 /home/connorgiannotti/public_html/thunderboltmusic/index.php(11): require('/home/connorgia...')
+#5 {main}
+  thrown in /home/connorgiannotti/public_html/thunderboltmusic/App/Models/DatabaseModel.php on line 46
