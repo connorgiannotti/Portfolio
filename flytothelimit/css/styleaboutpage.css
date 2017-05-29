@@ -1,0 +1,675 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#headerright{
+  -webkit-transform: rotate(-4deg); 
+  -moz-transform:    rotate(-4deg); 
+  -ms-transform:     rotate(-4deg); 
+  -o-transform:      rotate(-4deg);
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  float: right;
+  top: -295px;
+  width: 50%;
+  height: 300px;
+  z-index: 2;
+}
+
+#headerleft{
+  -webkit-transform: rotate(4deg); 
+  -moz-transform:    rotate(4deg); 
+  -ms-transform:     rotate(4deg); 
+  -o-transform:      rotate(4deg);
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  float: left;
+  top: -296px;
+  width: 50%;
+  height: 300px;
+  z-index: 2;
+}
+
+
+#logo{
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  position: absolute;
+  left: calc(50% - 92px);
+  top: 17px;
+  width: 183px;
+  height: 210px;
+  z-index: 5;
+}
+
+#square{
+  height: 170px;
+  width: 70px;
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  left: calc(50% - 35px);
+  top: 30px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul>li{
+  display: inline-block;
+}
+
+#headerleft>ul>li>a, #headerright>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-family: "Trajan Pro";
+  font-size: 30px;
+  position: relative;
+  z-index: 6;
+}
+
+.listright>li>button{
+  outline: 0;
+  cursor: pointer;
+}
+.listright>li>button{
+  text-decoration: none;
+  color: #454a53;
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid #454a53;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  padding: 12px;
+}
+
+.listleft{
+  position: relative;
+  float: right;
+  right: 130px;
+  top: 200px;
+  -webkit-transform: rotate(-4deg); 
+    -moz-transform:    rotate(-4deg); 
+    -ms-transform:     rotate(-4deg); 
+    -o-transform:      rotate(-4deg);
+}
+
+.listright{
+  position: relative;
+  float: left;
+  left: 130px;
+  top: 186px;
+  -webkit-transform: rotate(4deg); 
+    -moz-transform:    rotate(4deg); 
+    -ms-transform:     rotate(4deg); 
+    -o-transform:      rotate(4deg);
+}
+
+.listleft>li>a{
+  padding: 25px;
+}
+
+.listright>li>a{
+  padding: 15px;
+}
+
+#headerright>.listright>li>a:hover{
+  color: #454a53;
+}
+
+#headerleft>.listleft>li>a:hover{
+  color: #454a53;
+}
+
+.listright>li>button:hover{
+  color: rgb(246, 140, 70);
+  background-color: #454a53; 
+}
+.listright>li>button:active{
+  transform: translateY(3px);
+}
+
+
+/*********************************    BOOKNOWPAGE      *****************************************************/
+
+
+#overlay{
+  visibility: hidden;
+  background-color: rgba(181,181,181,.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 5600px;
+  z-index: 10;
+}
+#overlay>#booknow{
+  background-color: rgb(69, 74, 83);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px; 
+  position: center;
+  z-index: 12;
+}
+#overlay>#booknow>a{
+  float: right;
+  padding: 10px;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+#overlay>#booknow>h1{
+  padding: 20px;
+  font-size: 60px;
+  font-family: "Trajan Pro";
+  color: rgb(246, 140, 70);
+  font-weight: bold;
+}
+#overlay>#booknow>#booknow-form>.form-group{
+  width: 90%;
+  margin: auto;
+}
+#overlay>#booknow>#booknow-form>.form-group>label{
+  font-size: 1.3em;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  margin: 10px;
+  color: rgb(246, 140, 70);
+}
+#overlay>#booknow>#booknow-form>.form-group>input{
+  margin: 5px 0 20px 0;
+  width: 100%;
+  height: 30px;
+  font-size: 1em;
+  font-family: "Times New Roman";
+}
+#overlay>#booknow>#booknow-form>.form-group>select{
+  margin: 5px 0 20px 0;
+  width: 300px;
+  height: 30px;
+  font-size: 1em;
+  font-family: "Times New Roman";
+  text-align: center;
+  border-radius: 0;
+}
+#overlay>#booknow>#booknow-form>.form-group>textarea{
+  margin: 20px 0;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Times New Roman";
+}
+#overlay>#booknow>#booknow-form>.form-group>button{
+  font-size: 1.3em;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(255,255,255);
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid rgb(246, 140, 70);
+  border-radius: 6px;
+  width: 226px;
+  height: 87px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  left: calc(50% - 113px);
+  margin-bottom: 20px;
+}
+.warning{
+  color: red;
+}
+.invalid{
+  border: 2px solid red;
+}
+
+
+/*******************************     ABOUTPAGE    *******************************************************/
+
+
+#mainimage{
+	background-image: url(../images/aboutimage.jpg);
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 514px;
+  top: -30px;
+}
+
+.maintitle{
+	font-size: 72px;
+  font-family: "Trajan Pro";
+  color: rgb(246, 140, 70);
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+  left: calc(50% - 189px)
+}
+
+#container{
+  width: 80%;
+  height: 4330px;
+  margin: auto;
+}
+
+#mckenzie{
+	position: relative;
+	height: 249px;
+	width: 100%;
+  margin-top: 100px;
+}
+#mckenziephoto{
+	background-image: url(../images/mckenzie.jpg);
+	width: 42%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mckenzie>p{
+	font-size: 1.3em;
+  	font-family: "Times New Roman";
+  	color: rgba(0,0,0,0.8);
+  	line-height: 1.2;
+  	text-align: left;
+  	position: relative;
+  	top: 52.5px;
+  	width: 42%;
+}
+
+
+/*********************     OURCREW    ****************************/
+
+
+#ourcrew{
+	width: 100%;
+	height: 465px;
+	position: relative;
+  margin-top: 100px;
+}
+
+#ourcrew>h1{
+  font-size: 60px;
+  font-family: "Trajan Pro";
+  color: rgb(246, 140, 70);
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+  left: calc(50% - 170.1px);
+}
+
+#finn{
+	background-image: url(../images/finn.png);
+	width: 42%;
+  height: 62.2%;
+	margin-top: 100px;
+  float: left;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#ourcrew>p{
+	font-size: 1.3em;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  width: 42%;
+  margin-top: 126.5px;
+  float: right;
+}
+
+#dropper{
+	width: 100%;
+	height: 293px;
+	position: relative;
+  margin-top: 50px;
+}
+
+#wendy{
+	background-image: url(../images/wendy.png);
+	width: 42%;
+  height: 100%;
+  float: right;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#dropper>p{
+	font-size: 1.3em;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  width: 42%;
+  float: left;
+  top: 62.5px;
+}
+
+#doc{
+	width: 100%;
+	height: 293px;
+	position: relative;
+  margin-top: 50px;
+}
+#john{
+	background-image: url(../images/john.png);
+	width: 42%;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#doc>p{
+	font-size: 1.3em;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  width: 42%;
+  float: right;
+  top: 38.5px;
+}
+
+#h{
+	width: 100%;
+	height: 293px;
+	position: relative;
+  margin-top: 50px;
+}
+
+#hans{
+	background-image: url(../images/hans.png);
+	width: 42%;
+  height: 100%;
+  float: right;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#h>p{
+	font-size: 1.3em;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  line-height: 1.2;
+  text-align: left;
+  position: relative;
+  width: 42%;
+  float: left;
+  top: 2.5px;
+}
+
+
+/*********************     OURFLEET    ****************************/
+
+
+#ourfleet{
+  width: 100%;
+  height: 2107px;
+  position: relative;
+  margin-top: 100px;
+}
+
+#ourfleet>h1{
+  font-size: 60px;
+  font-family: "Trajan Pro";
+  color: rgb(246, 140, 70);
+  font-weight: bold;
+  line-height: 1.2;
+  position: relative;
+  left: calc(50% - 167px);
+}
+
+#cessna{
+  background-image: url(../images/cessna.png);
+  width: 100%;
+  height: 23%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 100px;
+}
+#cessna>h2{
+  font-size: 36px;
+  font-family: "Trajan Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+#amphibian{
+  background-image: url(../images/amphibian.png);
+  width: 100%;
+  height: 23%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+#amphibian>h2{
+  font-size: 36px;
+  font-family: "Trajan Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+#glider{
+  background-image: url(../images/glider.png);
+  width: 100%;
+  height: 23%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+#glider>h2{
+  font-size: 36px;
+  font-family: "Trajan Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+#heli{
+  background-image: url(../images/helicopter.png);
+  width: 100%;
+  height: 23%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+#heli>h2{
+  font-size: 36px;
+  font-family: "Trajan Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+#ourfleet>p{
+  font-size: 27px;
+  font-family: "Times New Roman";
+  color: rgba(0,0,0,0.8);
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+
+}
+
+
+/**********************************    FOOTER    ****************************************************/
+
+footer{
+  background-color: rgb(246, 140, 70);
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.sitemap{
+  position: absolute;
+  min-width: 80%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.sitemap>li>a{
+  color: white;
+  font-size: 27px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.sitemap>li>a:hover{
+  color: #454a53;
+}
+.sitemap>li>a:hover .drop {
+  color: white;
+}
+.sitemap>li{
+  padding-right: 150px;
+  display: inline-block;
+  position: relative;
+}
+.sitemap>li:last-child{
+  padding-right: 0;
+}
+
+.drop{
+  position: absolute;
+}
+.drop>li>a{
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.drop>li{
+  display: block;
+  padding-top: 10px;
+}
+.drop>li>a:hover{
+  color: #454a53;
+}
+
+#fb{
+  background-image: url(../images/fbicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+}
+#fb:hover{
+  background-image: url(../images/fbiconhover.png);
+}
+
+#twitter{
+  background-image: url(../images/twittericon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+}
+#twitter:hover{
+  background-image: url(../images/twittericonhover.png);
+}
+
+#insta{
+  background-image: url(../images/instagramicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+
+}
+#insta:hover{
+  background-image: url(../images/instagramiconhover.png);
+}
+
+#youtube{
+  background-image: url(../images/youtubeicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+}
+#youtube:hover{
+  background-image: url(../images/youtubeiconhover.png);
+}
+.icons{
+  position: absolute;
+  bottom: 30px;
+  right: 80px;
+}
+footer>button>a{
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid #454a53;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  color: #454a53;
+  padding: 12px;
+  position: absolute;
+  /*float: right;*/
+  top: 125px;
+  right: 110px;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+footer>button>a:hover{
+  color: rgb(246, 140, 70);
+  background-color: #454a53;
+}
+footer>button>a:active{
+  transform: translateY(3px);
+}
+footer>small{
+  position: absolute;
+  left: calc(50% - 81.5px);
+  bottom: 5px;
+  color: white;
+
+}
+

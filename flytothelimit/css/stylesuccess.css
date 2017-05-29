@@ -1,0 +1,327 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#headerright{
+  -webkit-transform: rotate(-4deg); 
+  -moz-transform:    rotate(-4deg); 
+  -ms-transform:     rotate(-4deg); 
+  -o-transform:      rotate(-4deg);
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  float: right;
+  top: -295px;
+  width: 50%;
+  height: 300px;
+  z-index: 2;
+}
+
+#headerleft{
+  -webkit-transform: rotate(4deg); 
+  -moz-transform:    rotate(4deg); 
+  -ms-transform:     rotate(4deg); 
+  -o-transform:      rotate(4deg);
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  float: left;
+  top: -296px;
+  width: 50%;
+  height: 300px;
+  z-index: 2;
+}
+
+
+#logo{
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  position: absolute;
+  left: calc(50% - 92px);
+  top: 17px;
+  width: 183px;
+  height: 210px;
+  z-index: 5;
+}
+
+#square{
+  height: 170px;
+  width: 70px;
+  background-color: rgb(246, 140, 70);
+  position: relative;
+  left: calc(50% - 35px);
+  top: 30px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul>li{
+  display: inline-block;
+}
+
+#headerleft>ul>li>a, #headerright>ul>li>a{
+  text-decoration: none;
+  color: white;
+  font-family: "Trajan Pro";
+  font-size: 30px;
+  position: relative;
+  z-index: 6;
+}
+
+.listright>li>button{
+  outline: 0;
+  cursor: pointer;
+}
+.listright>li>button{
+  text-decoration: none;
+  color: #454a53;
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid #454a53;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  padding: 12px;
+}
+
+.listleft{
+  position: relative;
+  float: right;
+  right: 130px;
+  top: 200px;
+  -webkit-transform: rotate(-4deg); 
+    -moz-transform:    rotate(-4deg); 
+    -ms-transform:     rotate(-4deg); 
+    -o-transform:      rotate(-4deg);
+}
+
+.listright{
+  position: relative;
+  float: left;
+  left: 130px;
+  top: 186px;
+  -webkit-transform: rotate(4deg); 
+    -moz-transform:    rotate(4deg); 
+    -ms-transform:     rotate(4deg); 
+    -o-transform:      rotate(4deg);
+}
+
+.listleft>li>a{
+  padding: 25px;
+}
+
+.listright>li>a{
+  padding: 15px;
+}
+
+#headerright>.listright>li>a:hover{
+  color: #454a53;
+}
+
+#headerleft>.listleft>li>a:hover{
+  color: #454a53;
+}
+
+.listright>li>button:hover{
+  color: rgb(246, 140, 70);
+  background-color: #454a53; 
+}
+.listright>li>button:active{
+  transform: translateY(3px);
+}
+
+
+/*********************************    SUCCESSPAGE      *****************************************************/
+
+main>h1{
+	font-size: 72px;
+ 	font-family: "Trajan Pro";
+  	color: rgb(246, 140, 70);
+ 	font-weight: bold;
+ 	line-height: 1.2;
+ 	position: absolute;
+ 	left: calc(50% - 225.975px);
+ 	margin-top: 100px;
+}
+main>p{
+	font-size: 1.5em;
+ 	font-family: "Trajan Pro";
+  	color: rgb(246, 140, 70);
+ 	font-weight: bold;
+ 	line-height: 1.2;
+ 	text-align: center;
+ 	margin: 0 auto;
+}
+
+main>a>button{
+  font-size: 1.3em;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(255,255,255);
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid rgb(246, 140, 70);
+  border-radius: 6px;
+  width: 226px;
+  height: 87px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  left: calc(50% - 113px);
+  margin-top: 30px;
+}
+main>a>button:active{
+  transform: translateY(3px);
+}
+
+
+/**********************************    FOOTER    ****************************************************/
+
+
+footer{
+  background-color: rgb(246, 140, 70);
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.sitemap{
+  position: absolute;
+  min-width: 80%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.sitemap>li>a{
+  color: white;
+  font-size: 27px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.sitemap>li>a:hover{
+  color: #454a53;
+}
+.sitemap>li>a:hover .drop {
+  color: white;
+}
+.sitemap>li{
+  padding-right: 150px;
+  display: inline-block;
+  position: relative;
+}
+.sitemap>li:last-child{
+  padding-right: 0;
+}
+
+.drop{
+  position: absolute;
+}
+.drop>li>a{
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.drop>li{
+  display: block;
+  padding-top: 10px;
+}
+.drop>li>a:hover{
+  color: #454a53;
+}
+
+#fb{
+  background-image: url(../images/fbicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+}
+#fb:hover{
+  background-image: url(../images/fbiconhover.png);
+}
+
+#twitter{
+  background-image: url(../images/twittericon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+}
+#twitter:hover{
+  background-image: url(../images/twittericonhover.png);
+}
+
+#insta{
+  background-image: url(../images/instagramicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 15px;
+
+}
+#insta:hover{
+  background-image: url(../images/instagramiconhover.png);
+}
+
+#youtube{
+  background-image: url(../images/youtubeicon.png);
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+}
+#youtube:hover{
+  background-image: url(../images/youtubeiconhover.png);
+}
+.icons{
+  position: absolute;
+  bottom: 30px;
+  right: 80px;
+}
+footer>button>a{
+  background-color: rgb(246, 140, 70);
+  border: 5pt solid #454a53;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  color: #454a53;
+  padding: 12px;
+  position: absolute;
+  /*float: right;*/
+  top: 125px;
+  right: 110px;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+footer>button>a:hover{
+  color: rgb(246, 140, 70);
+  background-color: #454a53;
+}
+footer>button>a:active{
+  transform: translateY(3px);
+}
+footer>small{
+  position: absolute;
+  left: calc(50% - 81.5px);
+  bottom: 5px;
+  color: white;
+
+}
