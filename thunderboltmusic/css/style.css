@@ -1,0 +1,605 @@
+html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+#backgroundhome{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/backgroundimage1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: -1;
+}
+
+#buttons a{
+	margin-top: 220px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	border: 4px solid white;
+	border-radius: 50px;
+	margin-bottom: 55px;
+	font-family: "Rockwell";
+	font-size: 24px;
+	width: 250px;
+	transition-duration: 0.4s;
+	box-shadow: 0px 0px 3px white;
+}
+#buttons a:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.form-group{
+	margin-right: 0 !important;
+	margin-bottom: 20 !important;
+}
+
+.form-group label{
+	/*position: absolute;*/
+	width: 0;
+}
+
+.form-group input{
+	background-color: rgba(0,0,0,0.4);
+	border: 2px solid white;
+	border-radius: 50px;
+	padding-left: 50px;
+	box-shadow: 0px 0px 3px white;
+	
+	background-size: 20px 24px;
+	background-position: 20px 8px; 
+    background-repeat: no-repeat;
+}
+.form-group:nth-child(1) input{
+	background-image: url(../images/usericon.png);
+}
+#signinform .form-group:nth-child(2) input{
+	background-image: url(../images/lockicon.png);
+}
+#createform .form-group:nth-child(2) input{
+	background-image: url(../images/emailicon.png);
+	background-size: 24px 20px;
+	background-position: 18px 10px;
+}
+#createform .form-group:nth-child(n+3) input{
+	background-image: url(../images/lockicon.png);
+}
+.form-control{
+	color: white;
+}
+
+i{
+	color: white;
+}
+
+.form-group .btn-success{
+	margin-top: 15px;
+	width: 100%;
+	background-color: #4988b5;
+	border: 2px solid white;
+	border-radius: 50px;
+	font-family: "Rockwell";
+	transition-duration: 0.4s;
+	box-shadow: 0px 0px 3px white;
+}
+.form-group .btn-success:hover{
+	border: 2px solid white;
+	background-color: #325e7a;
+}
+.form-group .btn-success:focus{
+	border: 2px solid white;
+	background-color: #325e7a;
+	outline: none;
+}
+
+#mainpagelogo{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 140px;
+	height: 60px;
+}
+
+#line{
+	padding-top: 35px;
+	width: 35%;
+	margin: 0 auto;
+	border-bottom: 1px solid white;
+}
+
+#guest{
+	margin-top: 35px;
+}
+#guest a{
+	color: white;
+	font-family: "Rockwell";
+	font-size: 18px;
+}
+
+
+
+/****************************   MAIN   ****************************************/
+
+#backgroundmain{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/backgroundimagemain.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: -1;
+}
+
+#logomain{
+	position: relative;
+	width: 200px;
+	height: 86px;
+	left: calc(50% - 100px);
+	margin-top: 10px;
+}
+
+#mainnavbar{
+	margin-top: 20px;
+	padding: 0 230px;
+}
+#mainnavbar li a{
+	color: white;
+	font-size: 24px;
+	font-family: "Rockwell";
+	border: none;
+}
+#mainnavbar li a:hover{
+	background-color: rgba(0,0,0,0);
+	color: #4988b5;
+}
+#dropdownAccount{
+	background-image: url(../images/usericonmain.png);
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 27px;
+	width: 40px;
+	position: relative;
+	top: 5px;
+}
+#dropdownAccount:hover{
+	background-image: url(../images/usericonmainhover.png);
+	background-size: 40px;
+	
+}
+#mainnavbar li a:focus{
+	background-color: rgba(0,0,0,0);
+}
+.nav-pills>li.active>a{
+	background-color: rgba(0,0,0,0) !important;
+	text-decoration: underline;
+}
+
+#accountname{
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	padding-top: 5px;
+}
+
+#signindrop{
+	background-color: rgba(0,0,0,0.6);
+}
+#signindrop li a{
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#backgroundslider{
+	width: 80%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 20px;
+}
+
+.errormessage{
+	color: red;
+	padding-left: 20px;
+}
+
+
+
+/****************************   HOME   ****************************************/
+
+
+#searchbar input{
+	margin-top: 20px;
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+	box-shadow: 0px 0px 3px white;
+    background-color: rgba(0,0,0,0);
+    background-image: url(../images/searchicon.png);
+    background-size: 20px;
+    background-position: 15px 13px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 45px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#searchbar input:focus {
+    width: 90%;
+    outline: none;
+}
+
+#backgroundslider h2{
+	margin-top: 35px;
+	color: white;
+	font-size: 24px;
+	font-family: "MV Boli";
+	background-image: url(../images/trendingicon.png);
+	background-size: 43px 20px;
+	background-repeat: no-repeat;
+	width: 155px;
+	padding-left: 50px;
+	position: relative;
+	left: calc(50% - 77.5px);
+}
+
+.songs a img{
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 217px;
+	width: 217px;
+}
+.songs{
+	display: inline-block;
+	margin-top: 35px;
+}
+.songs p{
+	color: white;
+	font-size: 14px;
+	font-family: "MV Boli";
+	margin-top: 22px;
+}
+.songs a:hover{
+	color: white;
+}
+.songs a img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.more{
+	margin-top: 133px;
+	background-image: url(../images/more.png);
+	width: 90px;
+	height: 21px;
+	position: relative;
+	left: calc(50% - 45px);
+}
+.more:hover{
+	background-image: url(../images/morehover.png);
+}
+
+footer{
+	margin-top: 35px;
+}
+footer small{
+	color: white;
+	font-family: "MV Boli";
+
+}
+
+
+
+/****************************   siginpopover   ****************************************/
+
+.modal-content{
+	background-color: black;
+	border: 3px solid white;
+	border-radius: 30px;
+	margin-top: 150px;
+}
+.modal-content h1{
+	background-color: rgba(0,0,0,0.4);
+    color: white;
+    border: 4px solid white;
+    border-radius: 50px;
+    font-family: "Rockwell";
+    font-size: 24px;
+    width: 250px;
+    height: 60px;
+    box-shadow: 0px 0px 3px white;
+    cursor: default;
+    position: relative;
+    left: calc(50% - 125px);
+    margin-bottom: 20px;
+}
+.modal-content h1:hover{
+	color: white;
+	border: 4px solid white;
+	background-color: rgba(0,0,0,0);
+}
+.modal-content h1:active{
+	color: white;
+	border: 4px solid white;
+	background-color: rgba(0,0,0,0);
+}
+.modal-content h1:focus{
+	color: white;
+	border: 4px solid white;
+	background-color: rgba(0,0,0,0);
+}
+
+.fa-times{
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 3px 0px 0px 1px;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	float: right;
+	margin: 15px 20px 0px 0px;
+	cursor: pointer;
+}
+
+
+
+/****************************   ADDSONG   ****************************************/
+
+
+#pageheading{
+	color: white;
+	font-size: 20px;
+	font-family: "MV Boli";
+	margin-left: 10%;
+	padding-top: 10px;
+}
+
+#addform{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-groupadd{
+	padding-top: 20px;
+}
+
+.form-groupadd>.form-control{
+	background-color: rgba(0,0,0,0.4);
+	border: 2px solid white;
+	border-radius: 50px;
+	box-shadow: 0px 0px 3px white;
+	
+}
+
+.form-groupadd>input, .form-groupadd>select{
+	height: 46px;
+}
+
+.form-groupadd textarea{
+	border-radius: 5px !important;
+	max-width: 100%;
+}
+
+.form-groupadd select{
+	-webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+	border-radius: 50px !important;
+	
+}
+.form-groupadd select:nth-child(1){
+	color: grey !important;
+}
+.form-groupadd select:nth-child(n+2){
+	color: white !important;
+}
+.form-groupadd select option{
+	background: rgba(0,0,0,0.8);
+}
+
+h4{
+	font-size: 14px;
+	text-align: left !important;
+	color: white;
+	margin-top: 0px;
+}
+#upload{
+	height: 20px;
+	color: white;
+}
+
+.form-groupadd button{
+	height: 46px;
+}
+
+#guestmessage{
+	color: #4988b5;
+	padding-left: 11%;
+}
+
+.adderrormessage{
+	color: red;
+	padding-left: 5%;
+	padding-top: 5px;
+}
+
+
+/****************************   GENRES   ****************************************/
+
+
+.outline{
+	width: 217px;
+	height: 217px;
+	border: 3px solid white;
+	border-radius: 5px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.genreitems:nth-child(3n+1) img{
+	width: 100px;
+	height: 100px;
+	margin-top: 58px;
+}
+.genreitems:nth-child(2) img{
+	width: 167px;
+	height: 100px;
+	margin-top: 58px;
+}
+.genreitems:nth-child(3) img{
+	width: 100px;
+	height: 127px;
+	margin-top: 45px;
+}
+.genreitems:nth-child(5) img{
+	width: 100px;
+	height: 140px;
+	margin-top: 38px;
+}
+.genreitems:nth-child(6) img{
+	width: 39px;
+	height: 100px;
+	margin-top: 58px;
+}
+
+.genreitems{
+	display: inline-block;
+	padding: 20px 50px 20px 50px;
+}
+.outline:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.genreitems p{
+	color: white;
+	font-size: 14px;
+	font-family: "MV Boli";
+	margin-top: 25px;
+}
+.genreitems a:hover{
+	color: white;
+}
+
+
+
+/****************************   FEATURED   ****************************************/
+
+
+.coverimg{
+	position: relative;
+	left: calc(50% - 108px);
+	margin-top: 10px;
+	width: 217px;
+	height: 218px;
+}
+
+hr{
+	width: 85%;
+}
+
+.songtitle{
+	color: white;
+	font-size: 20px;
+	font-family: "MV Boli";
+}
+
+.songinfo{
+	color: white;
+	font-size: 16px;
+	font-family: "MV Boli";
+}
+
+.comment{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.addcomment{
+	margin-left: 10%;
+	width: 20%;
+}
+
+iframe{
+	position: relative;
+	left: calc(50% - 350px);
+	margin-top: 10px;
+}
+
+#commenttitle{
+	margin-top: 50px;
+	margin-left: 10%;
+	color: white;
+	font-size: 18px;
+	font-family: "MV Boli";
+}
+
+#allcomments{
+	margin-left: 11%;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+/****************************   MUSIC   ****************************************/
+
+tbody img{
+	height: 50px;
+	width: 50px;
+}
+
+tbody td:nth-child(n+2){
+	vertical-align: middle !important;
+}
+
+.musiclist a{
+	color: #333;
+}
+
+
+
+
+/****************************   ACCOUNT   ****************************************/
+
+#user{
+	color: #4988b5;
+	font-size: 18px;
+	padding-left: 11%;
+}
+
+.accountbut{
+	display: inline-block;
+	width: 350px;
+	padding: 50px 30px;
+}
+
+.subheading{
+	color: white;
+}
+
+.passwordform input{
+	background-image: url(../images/lockicon.png) !important;
+}
+
+.editform .form-group:nth-child(2) input{
+	background-image: url(../images/usericon.png) !important;
+}
+
+.editform .form-group:nth-child(3) input{
+	background-image: url(../images/emailicon.png) !important;
+	background-size: 24px 20px;
+	background-position: 18px 10px;
+}
